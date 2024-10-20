@@ -171,10 +171,10 @@ def compose_indoors(output_folder: Path, scene_seed: int, **overrides):
                     # Others will be empty-ish besides maybe storage and plants
                     # TODO: add constraints to home_furniture_constraints for garages, offices, balconies, etc
                     t.Semantics.Bedroom,
-                    t.Semantics.LivingRoom,
-                    t.Semantics.Kitchen,
-                    t.Semantics.Bathroom,
-                    t.Semantics.DiningRoom,
+                    # t.Semantics.LivingRoom,
+                    # t.Semantics.Kitchen,
+                    # t.Semantics.Bathroom,
+                    # t.Semantics.DiningRoom,
                 ]
             )
         }
